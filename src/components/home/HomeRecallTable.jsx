@@ -10,7 +10,7 @@ export default function HomeRecallTable() {
       setData(resp.data.results)
       console.log(data)
     });
-  }
+  };
   
   useEffect(() => {
     getData();
@@ -18,7 +18,7 @@ export default function HomeRecallTable() {
 
   const tableData = () => {
       return data.map((val) => {
-        return <tr>
+        return <tr key={val.recall_number}>
           <td>{val.product_type}</td>
           <td>{val.report_date}</td>
           <td>{val.product_description}</td>

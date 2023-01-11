@@ -6,6 +6,8 @@ import {
   Route
  } from 'react-router-dom';
 import FoodRecalls from './components/FoodRecalls';
+import DrugRecalls from './components/DrugRecalls';
+import DeviceRecalls from './components/DeviceRecalls';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/food-recalls' element={<FoodRecalls />} />
+        <Route path='/drug-recalls' element={<DrugRecalls />} />
+        <Route path='/device-recalls' element={<DeviceRecalls />} />
       </Routes>
     </Router>
   );

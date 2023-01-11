@@ -10,7 +10,7 @@ export default function Home() {
       <div className='intro'>
         <h3>Safety is a priority. </h3>
         <h3>Check on recalls at the tip of your fingers.</h3>
-        <p>Some of the latest recalls in 2023</p>
+        <p>Some of the latest recalls in 2022</p>
       </div>
       <HomeRecallTable />
     </div>

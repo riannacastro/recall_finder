@@ -6,6 +6,7 @@ export default function NavBar() {
   return (
     <div className='header'>
       <h1>Recall <BsSearch /> Finder</h1>
+      <h3>Home</h3>
       <h3>Food Recalls</h3>
       <h3>Drug Recalls</h3>
       <h3>Device Recalls</h3>
