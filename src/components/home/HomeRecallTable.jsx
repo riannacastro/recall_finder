@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import '../css/HomeRecallTable.css';
 
 export default function HomeRecallTable() {
   const [data, setData] = useState();
