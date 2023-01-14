@@ -8,3 +8,8 @@
   color: white;
   padding: 1em;
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+}
