@@ -8,9 +8,11 @@ export default function Home() {
     <div className='container'>
       <NavBar />
       <div className='intro'>
-        <h3>Safety is a priority. </h3>
+        <h2>Safety is a priority. </h2>
         <h3>Check on recalls at the tip of your fingers.</h3>
-        <p>Here are some of the latest recalls in 2022:</p>
+      </div>
+      <div>
+        <p>MOST RECENT RECALLS (2022):</p>
       </div>
       <HomeRecallTable />
     </div>
