@@ -5,9 +5,9 @@ import {
   Routes,
   Route
  } from 'react-router-dom';
-import FoodRecalls from './components/FoodRecalls';
-import DrugRecalls from './components/DrugRecalls';
-import DeviceRecalls from './components/DeviceRecalls';
+ import FoodRecalls from './components/food-recalls/FoodRecalls';
+ import DrugRecalls from './components/drug-recalls/DrugRecalls';
+ import DeviceRecalls from './components/device-recalls/DeviceRecalls';
 
 function App() {
   return (
