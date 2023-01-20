@@ -32,7 +32,7 @@ export default function HomeRecallTable() {
   return (
     <div>
       { data ? 
-        <table>
+        <table className='center'>
           <tr>
             <th>Category </th>
             <th>Recall Date</th>
