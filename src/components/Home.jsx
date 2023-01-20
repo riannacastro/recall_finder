@@ -9,6 +9,7 @@ export default function Home() {
       <NavBar />
       <div className='intro'>
         <h2>Safety is a priority. </h2>
+        <hr />
         <h3>Check on recalls at the tip of your fingers.</h3>
       </div>
       <div>

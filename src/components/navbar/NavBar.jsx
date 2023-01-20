@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <div className='header'>
       <h1><button>Recall <BsSearch /> Finder</button></h1>
-      <button>Home</button>
+      <button onClick={() => navigate('/')}>Home</button>
       <button onClick={() => navigate('/food-recalls')}>Food Recalls</button>
       <button onClick={() => navigate('/drug-recalls')}>Drug Recalls</button>
       <button onClick={() => navigate('/device-recalls')}>Device Recalls</button>
