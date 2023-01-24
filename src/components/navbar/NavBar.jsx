@@ -14,8 +14,8 @@ export default function NavBar() {
       <button onClick={() => navigate('/drug-recalls')}>Drug Recalls</button>
       <button onClick={() => navigate('/device-recalls')}>Device Recalls</button>
       <div className='contact'>
-        <p>Want to submit a recall?</p>
-        <label>Contact Us</label>
+        {/* <p>Want to submit a recall?</p> */}
+        <button>Contact Us</button>
       </div>
     </div>
   )
