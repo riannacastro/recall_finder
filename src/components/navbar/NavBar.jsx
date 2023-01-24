@@ -13,13 +13,10 @@ export default function NavBar() {
       <button onClick={() => navigate('/food-recalls')}>Food Recalls</button>
       <button onClick={() => navigate('/drug-recalls')}>Drug Recalls</button>
       <button onClick={() => navigate('/device-recalls')}>Device Recalls</button>
-      <form>
-        <p>Looking for something specific?</p>
-        <label>Search for product: </label>
-        <input
-          type="text"
-          ></input>
-      </form>
+      <div className='contact'>
+        <p>Want to submit a recall?</p>
+        <label>Contact Us</label>
+      </div>
     </div>
   )
 }

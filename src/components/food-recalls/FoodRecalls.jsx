@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import NavBar from '../navbar/NavBar';
 import '../css/FoodRecalls.css';
+import Search from '../navbar/Search';
 
 export default function FoodRecalls() {
   const [data, setData] = useState();
@@ -36,19 +37,24 @@ export default function FoodRecalls() {
       <div className='title'>
         <h1>Food Recalls</h1>
       </div>
-      { data ? 
-        <table className='center'>
-          <tr>
-            <th>Category </th>
-            <th>Recall Date</th>
-            <th>Product Name </th>
-            <th>Reason </th>
-          </tr>
-          <tbody>
-            {tableData()}
-          </tbody>
-    </table> 
-    : <></>}
+      <div className='search'>
+        <Search />
+      </div>
+      <div>
+        { data ? 
+          <table className='center'>
+            <tr>
+              <th>Category </th>
+              <th>Recall Date</th>
+              <th>Product Name </th>
+              <th>Reason </th>
+            </tr>
+            <tbody>
+              {tableData()}
+            </tbody>
+      </table> 
+      : <></>}
+      </div>
     </div>
   )
 }
